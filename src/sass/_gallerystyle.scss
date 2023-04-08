@@ -1,6 +1,9 @@
 .gallery {
   width: 1200px;
   margin: 0 auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
@@ -14,6 +17,9 @@
 }
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 272px;
+  height: 181px;
+}
+.info {
+  padding-left: 10px;
 }
