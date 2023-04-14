@@ -1,4 +1,8 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+.load-more {
+  margin: 0 auto;
+  display: block;
+}
 .is-hidden {
   display: none;
 }
@@ -16,10 +20,11 @@ form {
 //   margin: 0 auto;
 //   display: block;
 // }
-.load-more {
-  margin: 20px 550px;
-  // display: block;
-}
+// .load-more {
+//   margin: 20px 550px;
+//   // display: block;
+// }
+
 .photo-card:hover,
 .photo-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
